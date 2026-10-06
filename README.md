@@ -2,7 +2,7 @@
 
 A REST API that serves a machine learning model to predict maternal health risk levels based on patient vital signs. Containerized with Docker so it runs on any machine without additional setup.
 
-> ⚠️his system is a screening tool only, not a substitute for medical diagnosis.
+> ⚠️Tis system is a screening tool only, not a substitute for medical diagnosis.
 
 ---
 
@@ -81,16 +81,20 @@ Open `http://localhost:8000/docs` for Swagger UI.
 ---
 
 ## Project Structure
+## Project Structure
+
+```
 maternal-risk-api/
 ├── app/
-│ ├── main.py # FastAPI routes
-│ ├── model.py # Model loading and prediction logic
-│ └── schemas.py # Input/output schema validation
+│   ├── main.py        # FastAPI routes
+│   ├── model.py       # Model loading and prediction logic
+│   └── schemas.py     # Input/output schema validation
 ├── model/
-│ └── best_model_final.pkl
+│   └── best_model_final.pkl
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+```
 
 ---
 
