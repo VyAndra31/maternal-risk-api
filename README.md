@@ -2,7 +2,7 @@
 
 A REST API that serves a machine learning model to predict maternal health risk levels based on patient vital signs. Containerized with Docker so it runs on any machine without additional setup.
 
-> ⚠️Tis system is a screening tool only, not a substitute for medical diagnosis.
+> This system is a screening tool only, not a substitute for medical diagnosis.
 
 ---
 
