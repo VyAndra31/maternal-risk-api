@@ -81,7 +81,6 @@ Open `http://localhost:8000/docs` for Swagger UI.
 ---
 
 ## Project Structure
-## Project Structure
 
 ```
 maternal-risk-api/
